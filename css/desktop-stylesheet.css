@@ -1,0 +1,103 @@
+/* formatting for all elements */
+img,embed, object, video {
+  max-width: 100%;
+}
+
+*{
+  box-sizing: border-box;
+  font-family: Helvetica, Arial, Verdana;
+}
+
+/* logo, name, and header formatting */
+header{
+  display: flex;
+  width: 100%;
+  max-height: 15%;
+  border-bottom: 2px solid #7d97ad;
+}
+
+.logo{
+  display: inline-block;
+  left: auto;
+  align-items: center;
+  margin: 0 0 0 5%;
+}
+
+.author{
+  display: inline-block;
+  padding-top: 2.5%;
+  width: 65%;
+  max-height: 15%;
+  margin: 0 0 0 10%;
+}
+
+/* header text formatting */
+h1{
+  text-align: right;
+  margin: 0;
+  font-size: 5vw;
+  text-transform: uppercase;
+  font-weight: lighter;
+  color: #7d97ad;
+}
+
+h3{
+  text-align: right;
+  margin: 0;
+  font-size: 3vw;
+  text-transform: uppercase;
+  font-weight: lighter;
+  color: #7d97ad;
+}
+
+/* featured work title */
+h2{
+  text-align: center;
+  font-size: 4vw;
+  text-transform: uppercase;
+  font-weight: lighter;
+  color: #7d97ad;
+}
+
+/* main image sizing */
+.main-image{
+  margin: 2.5%;
+  max-height: 50%;
+}
+
+/* formatting for featured work section */
+.featured-work{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+/* formatting for individual projects */
+.project{
+  display: inline-block;
+  max-width: 30%;
+}
+
+.project-image{
+  padding: 2.5%;
+}
+
+.project-title{
+  text-align: center;
+  font-size: 3vw;
+  vertical-align: text-top;
+  text-transform: uppercase;
+  font-weight: lighter;
+  color: #2d3c49;
+}
+
+a{
+  display: block;
+  text-align: center;
+  font-size: 1.5vw;
+  margin-bottom: 5%;
+  vertical-align: text-top;
+  text-transform: lowercase;
+  font-weight: lighter;
+  color: #2d3c49;
+}
